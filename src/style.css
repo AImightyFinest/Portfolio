@@ -75,7 +75,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: lightgray;
 }
 button:focus,
 button:focus-visible {
@@ -93,4 +93,46 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+#btn1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#btn2 {
+  position: absolute;
+  justify-content: space-between;
+  top: 10px;
+  left: 45%;
+  padding: 10px 20px;
+  background-color: black;
+}
+#btn3 {
+  position: absolute;
+  top: 10px;
+  left: 60%;
+  padding: 10px 20px;
+  background-color: black;
+}
+#btn4 {
+  position: absolute;
+  top: 10px;
+  left: 75%;
+  padding: 10px 20px;
+  background-color: black;
+}
+#btn5 {
+  position: absolute;
+  top: 10px;
+  left: 90%;
+  background-color: black;
+  justify-content: space-between;
+  justify-items: auto;
 }
